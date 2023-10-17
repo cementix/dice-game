@@ -1,0 +1,63 @@
+body {
+    background-color: darkslateblue;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title h1 {
+    margin: 20px 0 0 0;
+    color: turquoise;
+    font-family: "Lobster", sans-serif;
+    font-size: 7.5rem;
+    text-shadow: 2px 2px 4px black;
+}
+
+.diceList {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50vh;
+    gap: 200px;
+}
+
+.dice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.dice h5 {
+    color: turquoise;
+    margin: 0;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 2rem;
+}
+
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+}
+
+.play button {
+    height: 50px;
+    width: 200px;
+    border: 0;
+    border-radius: 50px;
+    font-family: 'Pixelify Sans', Courier, monospace;
+    color: red;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.play button:hover {
+    transition: 0.2s;
+    background-color: grey;
+}
